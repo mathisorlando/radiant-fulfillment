@@ -30,11 +30,11 @@ const About = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           <div className="lg:w-1/2 opacity-0 animate-fade-in-left">
             <div className="relative">
+              <h4 className="font-playfair text-3xl text-white text-center absolute w-full top-1/2 -translate-y-1/2 z-20">
+                Heike Ziegler
+              </h4>
               <div className="aspect-[3/4] bg-gradient-to-br from-coach-yellow to-coach-orange rounded-2xl overflow-hidden">
-                {/* Replace with actual image */}
-                <div className="absolute inset-0 bg-coach-black/20 backdrop-blur-sm flex items-center justify-center">
-                  <h4 className="font-playfair text-3xl text-white text-center">Heike Ziegler</h4>
-                </div>
+                <div className="absolute inset-0 bg-coach-black/20 backdrop-blur-sm" />
               </div>
               <Circle 
                 size="md" 
